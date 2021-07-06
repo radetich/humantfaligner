@@ -27,7 +27,12 @@ def lidar2cam(lidar_pc,rvec,tvec,intrinsics):
     lidar_px = np.squeeze(lidar_px)
     return lidar_px 
 
-path = '/home/nick/catkin_ws/smartbases/bobby_dat'
+
+cole_path = '/home/parallels/test.bag'
+#nick_path = '/home/nick/catkin_ws/smartbases/bobby_dat'
+path = cole_path
+
+
 
 # get the information 
 images = [ cv2.imread(path + "/Images/" + filename) for filename in os.listdir(path + "/Images/")]
