@@ -1,5 +1,3 @@
-##INTERFACE GRAPHICS RENDERER
-
 import pygame
 import sys
 from colors import *
